@@ -1,11 +1,41 @@
 
+body, html {
+    height: 100vh
+}
+
 body {
     background-color: #FCFAFA;
     color: #16423C;
     line-height: 1.5;
-    padding: 0px;
-    margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg {
+    background-image: url(images/food_bg1.jpg);
+    box-shadow: 0 0 8px 8px white inset;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    text-align: center;
+  }
+
+
+.bg h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #16423C;
+    font-size: 75px;
+    padding: 25px 100px 20px 100px;
+    margin-top: 75px;
+    text-shadow: 1px 1px 3px black;
+
+}
+
+
+.col {
+    text-align: center;
 }
 
 
@@ -22,4 +52,33 @@ body {
     font-weight: bold;
     letter-spacing: 5px;
 
+}
+
+.bg p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #16423C;
+    padding-bottom: 50px;
+    font-size: large;
+
+}
+
+#main {
+    margin-bottom: 300px;
+}
+
+#section2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #16423C;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#section2 h1 {
+    font-weight: bold;
+    padding: 25px;
+}
+
+#section2 h2 {
+    font-size: 20px;
 }
