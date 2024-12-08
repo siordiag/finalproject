@@ -6,7 +6,6 @@ body, html {
 body {
     background-color: #FCFAFA;
     color: #16423C;
-    line-height: 1.5;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -31,6 +30,12 @@ body {
     margin-top: 75px;
     text-shadow: 1px 1px 3px black;
 
+}
+
+img.w-100 {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
 }
 
 
@@ -94,3 +99,58 @@ a:link {
     text-decoration: none;
 }
 
+
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-weight: bold;
+    color:#16423C;
+}
+
+.card-title:hover {
+    color: #6A9C89;
+}
+
+.card-img-top:hover {
+    opacity: 75%;
+}
+
+.card-text {
+    font-weight: lighter;
+    color:#16423C;
+}
+
+#all {
+    padding:20px;
+    margin: 50px;
+}
+
+#all h1 {
+    color: #16423C;
+}
+
+article {
+    padding: 50px;
+    margin: 50px;
+    color: #16423C;
+}
+
+article h1,h2,p {
+    text-align: center;
+}
+
+.flexbox img {
+    float: left;
+    margin-right: 75px;
+}
+
+.flexbox {
+    display:flex;
+    flex-direction: column;
+}
+  
