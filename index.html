@@ -10,27 +10,31 @@
 <body class="d-flex flex-column min-vh-100">
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white shadow">
         <div class="container">
-        <a href="index.html" class="navbar-brand">Recipes for Success</a>
-        <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="recipe" role="button" aria-expanded="false">Recipes</a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="recipes/all.html">All</a></li>
-                    <li><a class="dropdown-item" href="#">Quick and Easy</a></li>
-                    <li><a class="dropdown-item" href="#">Dinner</a></li>
+            <a href="index.html" class="navbar-brand">Recipes for Success</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav ms-auto w-100 justify-content-end">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="recipe" role="button" aria-expanded="false">Recipes</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="recipes/all.html">All</a></li>
+                            <li><a class="dropdown-item" href="#">Quick and Easy</a></li>
+                            <li><a class="dropdown-item" href="#">Dinner</a></li>
+                        </ul>
+                    </li>
                 </ul>
-            </li>
-        </ul>
-        <form class="col-md-3 " role="search">
-            <input class="form-control rounded-pill bg-light" type="search" placeholder="Search" aria-label="Search">
-        </form>
-        </div>
+                <form class="col-md-3 " role="search">
+                    <input class="form-control rounded-pill bg-light" type="search" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
     </nav>
 
 
@@ -43,36 +47,72 @@
                 </div> 
             </div>
             <div class="row">
-            <div class="col">
-                <div class="bg-image hover-zoom">
-                    <a href="about.html">
-                    <img src="images/smoothie.jpg" alt="Easy Smoothie Revipe" class="w-100 rounded"/>
-                    </a>
+                <div class="col">
+                    <div class="bg-image hover-zoom">
+                        <a href="about.html">
+                        <img src="images/smoothie.jpg" alt="Easy Smoothie Recipe" class="w-100 rounded"/>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="bg-image hover-zoom">
-                    <a href="about.html">
-                    <img src="images/smoothie.jpg" alt="Easy Smoothie Revipe" class="w-100 rounded"/>
-                    </a>
+                <div class="col">
+                    <div class="bg-image hover-zoom">
+                        <a href="about.html">
+                        <img src="images/smoothie.jpg" alt="Easy Smoothie Recipe" class="w-100 rounded"/>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="bg-image hover-zoom">
-                    <a href="about.html">
-                    <img src="images/smoothie.jpg" alt="Easy Smoothie Revipe" class="w-100 rounded"/>
-                    </a>
+                <div class="col">
+                    <div class="bg-image hover-zoom">
+                        <a href="about.html">
+                        <img src="images/smoothie.jpg" alt="Easy Smoothie Recipe" class="w-100 rounded"/>
+                        </a>
+                    </div>
                 </div>
-            </div>
             </div>
         </div>
     </div>
 
     <div class="container" id="section2">
-        <h1>Popular Recipes</h1>
-        <h2>Our most popular recipes - loved by users worldwide!</h2>
-        
+        <div class="row">
+            <div class="col text-center">
+                <h1>Popular Recipes</h1>
+                <h2>Our most popular recipes - loved by users worldwide!</h2>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+            <a href="default.asp">
+            <div class="col">
+              <div class="card">
+                <img src="images/smoothie.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            </a>
+            <div class="col">
+              <div class="card">
+                <img src="images/food_bg.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/smoothie.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
     </div>
+
 
 
     <footer class="bg-dark text-white">

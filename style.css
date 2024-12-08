@@ -1,6 +1,6 @@
 
 body, html {
-    height: 100vh
+    height: 100vh;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
 .bg {
     background-image: url(images/food_bg1.jpg);
     box-shadow: 0 0 8px 8px white inset;
-    height: 100vh;
+    min-height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -72,13 +72,25 @@ body {
     color: #16423C;
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 25px;
 }
+
 
 #section2 h1 {
     font-weight: bold;
-    padding: 25px;
 }
 
 #section2 h2 {
     font-size: 20px;
 }
+
+
+#about {
+    padding: 100px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
