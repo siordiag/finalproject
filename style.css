@@ -140,17 +140,25 @@ article {
     color: #16423C;
 }
 
-article h1,h2,p {
+article h1, p {
     text-align: center;
 }
 
 .flexbox img {
     float: left;
     margin-right: 75px;
+    margin-bottom: 75px;
 }
 
 .flexbox {
     display:flex;
     flex-direction: column;
 }
-  
+
+.newsletter {
+    background-color: #16423C;
+    color: #FCFAFA;
+    text-align: center;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
